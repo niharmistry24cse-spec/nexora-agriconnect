@@ -1,0 +1,142 @@
+﻿export const initialOrders = [
+  {
+    id: 'AC-8492-MK',
+    orderNumber: '#AC-8492-MK',
+    status: 'In Transit',
+    statusVariant: 'info',
+    productName: 'Premium Grade Wheat Seeds (Sharbati)',
+    category: 'Seeds',
+    productThumbnail: 'https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=600&auto=format&fit=crop&q=80',
+    quantity: '5 x 50kg Bags',
+    quantityNum: 5,
+    unit: 'Bags',
+    pricePerUnit: 1700,
+    totalPrice: 8750,
+    currency: '₹',
+    sellerName: 'Ramesh Singh (Kisan Agro)',
+    sellerLocation: 'Ludhiana, Punjab',
+    sellerPhone: '+91 98765 43210',
+    orderDate: '24 Aug 2026',
+    expectedDelivery: '26 Aug 2026',
+    steps: [
+      { id: 1, name: 'Requested', time: 'Aug 24, 09:00', status: 'completed' },
+      { id: 2, name: 'Confirmed', time: 'Aug 24, 14:30', status: 'completed' },
+      { id: 3, name: 'In Transit', time: 'Est. Aug 26', status: 'current', icon: 'truck' },
+      { id: 4, name: 'Completed', time: 'Pending', status: 'upcoming', icon: 'package' }
+    ],
+    invoice: {
+      invoiceNo: 'INV-BYR-8492',
+      date: '24 Aug 2026',
+      taxId: 'GSTIN03AAAAA1234A1Z5',
+      subtotal: 8500,
+      deliveryFee: 250,
+      total: 8750
+    },
+    lastUpdated: '15 mins ago'
+  },
+  {
+    id: 'AC-7731-GR',
+    orderNumber: '#AC-7731-GR',
+    status: 'Delivered',
+    statusVariant: 'success',
+    productName: 'Premium Golden Wheat (Organic Certified)',
+    category: 'Crops',
+    productThumbnail: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&auto=format&fit=crop&q=80',
+    quantity: '50 Quintals',
+    quantityNum: 50,
+    unit: 'Quintals',
+    pricePerUnit: 2450,
+    totalPrice: 122500,
+    currency: '₹',
+    sellerName: 'Ramesh Kumar (Steward Farmer)',
+    sellerLocation: 'Village Pratappur, Ludhiana, Punjab',
+    sellerPhone: '+91 98765 43210',
+    orderDate: '20 Aug 2026',
+    expectedDelivery: '22 Aug 2026',
+    steps: [
+      { id: 1, name: 'Requested', time: 'Aug 20, 10:00', status: 'completed' },
+      { id: 2, name: 'Confirmed', time: 'Aug 20, 11:30', status: 'completed' },
+      { id: 3, name: 'In Transit', time: 'Aug 21, 08:00', status: 'completed', icon: 'truck' },
+      { id: 4, name: 'Delivered', time: 'Aug 22, 16:45', status: 'completed', icon: 'package' }
+    ],
+    invoice: {
+      invoiceNo: 'INV-BYR-7731',
+      date: '20 Aug 2026',
+      taxId: 'GSTIN03BBBBB5678B2Z1',
+      subtotal: 122500,
+      deliveryFee: 0,
+      total: 122500
+    },
+    lastUpdated: '2 days ago'
+  },
+  {
+    id: 'AC-6520-VG',
+    orderNumber: '#AC-6520-VG',
+    status: 'Delivered',
+    statusVariant: 'success',
+    productName: 'Fresh Roma Tomatoes (Vine-Ripened)',
+    category: 'Vegetables',
+    productThumbnail: 'https://images.unsplash.com/photo-1592924357228-91a4daadcfea?w=600&auto=format&fit=crop&q=80',
+    quantity: '20 Quintals',
+    quantityNum: 20,
+    unit: 'Quintals',
+    pricePerUnit: 1800,
+    totalPrice: 36000,
+    currency: '₹',
+    sellerName: 'Green Valley Organic Collective',
+    sellerLocation: 'Sangrur, Punjab',
+    sellerPhone: '+91 98123 77889',
+    orderDate: '12 Aug 2026',
+    expectedDelivery: '14 Aug 2026',
+    steps: [
+      { id: 1, name: 'Requested', time: 'Aug 12, 08:30', status: 'completed' },
+      { id: 2, name: 'Confirmed', time: 'Aug 12, 10:00', status: 'completed' },
+      { id: 3, name: 'In Transit', time: 'Aug 13, 06:00', status: 'completed', icon: 'truck' },
+      { id: 4, name: 'Delivered', time: 'Aug 14, 15:30', status: 'completed', icon: 'package' }
+    ],
+    invoice: {
+      invoiceNo: 'INV-BYR-6520',
+      date: '12 Aug 2026',
+      taxId: 'GSTIN03CCCCC9012C3Z8',
+      subtotal: 36000,
+      deliveryFee: 0,
+      total: 36000
+    },
+    lastUpdated: '10 days ago'
+  },
+  {
+    id: 'AC-5412-FZ',
+    orderNumber: '#AC-5412-FZ',
+    status: 'Delivered',
+    statusVariant: 'success',
+    productName: 'Organic Neem Bio-Fertilizer (25kg Bags)',
+    category: 'Fertilizers',
+    productThumbnail: 'https://images.unsplash.com/photo-1585336261026-614041b31548?w=600&auto=format&fit=crop&q=80',
+    quantity: '10 Bags',
+    quantityNum: 10,
+    unit: 'Bags',
+    pricePerUnit: 850,
+    totalPrice: 8500,
+    currency: '₹',
+    sellerName: 'Punjab Bio-Agri Cooperatives',
+    sellerLocation: 'Hoshiarpur, Punjab',
+    sellerPhone: '+91 99887 66554',
+    orderDate: '01 Aug 2026',
+    expectedDelivery: '04 Aug 2026',
+    steps: [
+      { id: 1, name: 'Requested', time: 'Aug 01, 11:00', status: 'completed' },
+      { id: 2, name: 'Confirmed', time: 'Aug 01, 14:00', status: 'completed' },
+      { id: 3, name: 'In Transit', time: 'Aug 02, 09:00', status: 'completed', icon: 'truck' },
+      { id: 4, name: 'Delivered', time: 'Aug 04, 12:00', status: 'completed', icon: 'package' }
+    ],
+    invoice: {
+      invoiceNo: 'INV-BYR-5412',
+      date: '01 Aug 2026',
+      taxId: 'GSTIN03DDDDD3456D4Z2',
+      subtotal: 8500,
+      deliveryFee: 0,
+      total: 8500
+    },
+    lastUpdated: '20 days ago'
+  }
+];
